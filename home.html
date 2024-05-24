@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puff and Sun</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>{{ $json.name }}</h1>
+            <h2>Neige tombé : {{ $json.currentSnow }}cm</h2>
+            <p>Météo de demain : {{ $json.tomorrowWeather }}</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Nom de votre entreprise. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
